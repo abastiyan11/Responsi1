@@ -86,7 +86,7 @@ printf ("Cari NIM : "); scanf("%s",&kata);
    {
                if(strcmp(kata,mhs[i].nim)==0)
                {
-               printf("\nData %s Ditemukan\n", kata);
+               printf ("\nData %s Ditemukan\n", kata);
                printf ("NIM   : %s\n",mhs[i].nim);
                printf ("Nama  : %s\n",mhs[i].nama);
                printf ("Nilai : %d\n",mhs[i].nilai);
@@ -106,7 +106,7 @@ int pil;
 do{
 clrscr();
       printf("+================================+\n");
-      printf("|    PROGRAM DATA MAHASISWA     |\n");
+      printf("|    PROGRAM DATA MAHASISWA      |\n");
       printf("|--------------------------------|\n");
       printf("| 1. Input data                  |\n");
       printf("| 2. Tampilkan Dan Urutkan Data  |\n");
