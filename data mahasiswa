@@ -94,7 +94,7 @@ printf ("Cari NIM : "); scanf("%s",&kata);
       }
                else
       {
-                      printf("Data ke-%d Tidak Ada\n",i+1);  //break;
+               printf("Data ke-%d Tidak Ada\n",i+1);  //break;
       }
    }
    //getch();
@@ -120,7 +120,7 @@ clrscr();
       {
         case 1 : input(); getch(); break;
                case 2 : {
-                                   output();
+                     output();
                      printf("\n\n  Tekan enter untuk mengurutkan data\n");
                      getch();
                      urut();
